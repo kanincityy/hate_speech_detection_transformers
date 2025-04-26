@@ -8,7 +8,7 @@ This work is part of my MSc in Language Sciences at UCL.
 
 ### 🎯 Goals
 
-*   Compare the performance of multilingual vs. monolingual Transformer models on Swedish hate speech detection.
+*   Compare the performance of multilingual vs. monolingual Transformer models on Swedish misogyny detection.
 *   Investigate the effectiveness of different transfer learning strategies:
     *   Zero-Shot Inference
     *   Cross-Lingual Fine-tuning (using English, German, Danish datasets)
