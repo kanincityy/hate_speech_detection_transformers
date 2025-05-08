@@ -6,7 +6,7 @@ This work is part of my MSc in Language Sciences at UCL.
 
 ---
 
-### 🎯 Goals
+### Goals
 
 *   Compare the performance of multilingual vs. monolingual Transformer models on Swedish misogyny detection.
 *   Investigate the effectiveness of different transfer learning strategies:
@@ -21,17 +21,17 @@ This work is part of my MSc in Language Sciences at UCL.
 *   **Models (Examples):** mBERT, XLM-RoBERTa, Swedish BERT variants (KB-BERT etc.)
 *   **Environment:** Google Colaboratory (due to GPU requirements)
 
-### 🚧 Project Status: Work In Progress 🚧
+### Project Status: Work In Progress
 
 This is an **active research project** currently underway, and this repository primarily serves as a placeholder and documentation hub. The code is experimental and subject to frequent updates and refinements as the research progresses towards a corresponding paper.
 
-### 💻 Code Access
+### Code Access
 
 The primary implementation and experiments are currently conducted within a **Google Colab notebook** due to the computational resources required for training and evaluating Transformer models.
 
-➡️ **Access the Colab Notebook Here:** [**https://colab.research.google.com/drive/1MatYWBgW2FLe-u_thPLUvdP9uqgOKxWi?usp=sharing**]
+**Access the Colab Notebook Here:** [**https://colab.research.google.com/drive/1MatYWBgW2FLe-u_thPLUvdP9uqgOKxWi?usp=sharing**]
 
-### 📈 Future Work (Planned)
+### Planned Future Work 
 
 *   Complete comparative analysis across all planned models and techniques.
 *   Refine evaluation metrics and error analysis.
