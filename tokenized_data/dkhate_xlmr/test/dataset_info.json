@@ -1,0 +1,62 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "dkhate",
+  "dataset_size": 382981,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/DDSC/dkhate@59d12749a3c91a186063c7d729ec392fda94681c/data/train-00000-of-00001.parquet": {
+      "num_bytes": 235533,
+      "checksum": null
+    },
+    "hf://datasets/DDSC/dkhate@59d12749a3c91a186063c7d729ec392fda94681c/data/test-00000-of-00001.parquet": {
+      "num_bytes": 23795,
+      "checksum": null
+    }
+  },
+  "download_size": 259328,
+  "features": {
+    "label": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 642309,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 349631,
+      "num_examples": 2960,
+      "dataset_name": "dkhate"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 33350,
+      "num_examples": 329,
+      "dataset_name": "dkhate"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
