@@ -31,6 +31,19 @@ The primary implementation and experiments are currently conducted within a **Go
 
 **Access the Colab Notebook Here:** [**https://colab.research.google.com/drive/1MatYWBgW2FLe-u_thPLUvdP9uqgOKxWi?usp=sharing**]
 
+### Project Structure
+
+```
+.
+├── data/               # Contains raw data files of various formats 
+├── tokenized data/     # Stores tokenized data used by transformer models
+├── processed data/     # Stores pre-processed data ready for tokenization
+├── models/             # Stores models saved at best F1 performance during training
+├── results/            # Stores evaluation results
+├── LICENSE             # MIT License file
+└── README.md           # This file
+```
+
 ### Planned Future Work 
 
 *   Complete comparative analysis across all planned models and techniques.
