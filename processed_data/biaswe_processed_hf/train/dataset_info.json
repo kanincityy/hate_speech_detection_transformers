@@ -1,0 +1,62 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "bia_swe",
+  "dataset_size": 513189,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/AI-Sweden-Models/BiaSWE@206736dfd7e026ea1da2a7d26ed98da3e09be5e0/data/train-00000-of-00001.parquet": {
+      "num_bytes": 98041,
+      "checksum": null
+    },
+    "hf://datasets/AI-Sweden-Models/BiaSWE@206736dfd7e026ea1da2a7d26ed98da3e09be5e0/data/val-00000-of-00001.parquet": {
+      "num_bytes": 107481,
+      "checksum": null
+    },
+    "hf://datasets/AI-Sweden-Models/BiaSWE@206736dfd7e026ea1da2a7d26ed98da3e09be5e0/data/test-00000-of-00001.parquet": {
+      "num_bytes": 102909,
+      "checksum": null
+    }
+  },
+  "download_size": 308431,
+  "features": {
+    "text": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 821620,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 153663,
+      "num_examples": 150,
+      "dataset_name": "bia_swe"
+    },
+    "val": {
+      "name": "val",
+      "num_bytes": 182656,
+      "num_examples": 150,
+      "dataset_name": "bia_swe"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 176870,
+      "num_examples": 150,
+      "dataset_name": "bia_swe"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
