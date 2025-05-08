@@ -2,7 +2,7 @@
 
 This repository supports ongoing research into detecting hate speech in **Swedish**, a low-resource language, leveraging the power of Transformer models. The project explores the effectiveness of large multilingual models (e.g., mBERT, XLM-R) and various cross-lingual transfer learning techniques compared to monolingual approaches.
 
-This work is part of my Computational Linguistics @ UCL.
+This work is part of my Computational Linguistics module @ UCL.
 
 ---
 
