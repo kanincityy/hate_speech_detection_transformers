@@ -15,7 +15,7 @@ This work is part of my MSc in Language Sciences at UCL.
     *   Inoculation / Few-Shot Fine-tuning (using minimal Swedish data)
 *   Contribute insights into tackling NLP tasks with limited target-language data.
 
-### 🛠️ Technologies Used
+### Technologies Used
 
 *   **Core Libraries:** Python, Hugging Face (`transformers`, `datasets`, `evaluate`), PyTorch / TensorFlow
 *   **Models (Examples):** mBERT, XLM-RoBERTa, Swedish BERT variants (KB-BERT etc.)
